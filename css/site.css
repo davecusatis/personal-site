@@ -1,0 +1,39 @@
+ html { 
+  background: url(../img/self.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    margin: 0px;
+}
+.name_box {
+    padding: .5em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.3);
+    width: 30%;
+    color: white;
+    font-family: Helvetica;
+}
+
+.about_box {
+    width:100%;
+    background-color: #c4a68f;
+    padding: .5em;
+    text-align: center;
+    font-size: 1.5em
+}
+
+.about_container {
+    background-color: #c4a68f;
+}
+
+.footer {
+    background-color: #c4a68f;
+}
