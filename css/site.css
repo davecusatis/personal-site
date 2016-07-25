@@ -13,17 +13,16 @@ body {
     padding: .5em;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 15em;
+    margin-bottom: 20em;
     border: 1px solid white;
     background: rgba(0, 0, 0, 0.3);
-    width: 30%;
+    width: 27%;
     color: white;
     font-family: Helvetica;
 }
 
 .about_box {
-    width:100%;
     background-color: #c4a68f;
     padding: .5em;
     text-align: center;
@@ -32,8 +31,37 @@ body {
 
 .about_container {
     background-color: #c4a68f;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cell {
+    width: 33%;
+    height: 33.33%;
+    position:relative;
+    border: 1px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
 }
 
 .footer {
+    color: white;
     background-color: #c4a68f;
+    padding: .05em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 1em;
 }
